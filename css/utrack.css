@@ -1,0 +1,39 @@
+/* Put any additional CSS here */
+
+.header {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.spacer {
+    margin-top: 10px;
+}
+
+#page_container > div:not(.show) {
+    display: none;
+}
+
+#analysis_div > div:not(.show) {
+    display: none;
+}
+
+#health_graph {
+    text-align: center;
+}
+
+#avg_stress_toggle {
+    margin-left: 10px;
+}
+
+#avg_happiness_toggle {
+    margin-left: 10px;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
+}
